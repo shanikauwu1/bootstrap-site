@@ -1,0 +1,70 @@
+ .navbar{
+   	background: #563D7C;
+   	margin-bottom: 0;
+   	border-radius: 0;
+   	padding: 1% 0;
+   	color: #fff;
+   	font-size: 1.2em;
+   	border: 0;
+
+   }
+   .navbar brand{
+   	float: left;
+   	min-height: 55px;
+   	padding: 0 15px 5px;
+   }
+    .navbar-inverse .navbar-nav .active a ,.navbar-inverse .navbar-nav .active a:focus ,.navbar-inverse .navbar-nav .active a:hover{
+    color: #fff;
+    background-color:#563D7C;	
+    }
+    .carousel-caption{
+      top: 50%;
+      transform: translateY(-50%);
+      text-transform: uppercase;
+    }
+    .carousel-caption button{
+      background-color: #563D7C;
+      color: #fff;
+      border-color:#563D7C;
+      text-transform: uppercase;
+      padding: 10px 15px;
+
+    }
+  
+   .carousel-caption button:active:focus,.carousel-caption button:focus, .carousel-caption button:hover{
+    background-color:#563D7C;
+    border-color:#563D7C; 
+   }
+   .container{
+    margin: 4% auto;
+   }
+   #icon{
+    max-width: 200px;
+    margin:1% auto;
+   }
+   .container p{
+    text-align: left;
+   }
+   footer{
+    background-color: #563D7C;
+
+    width: 100%;
+    color: #fff;
+    margin:4% auto;
+    padding: 1% 0;
+   }
+   footer h2{
+    font-size: 20px;
+   }
+ @media (max-width: 600px){
+  .carousel-caption{
+    display: none;
+  }
+  #icon{
+    max-width: 150px;
+   }
+   h4{
+    font-size: 1.7em
+   }
+ }
+	
